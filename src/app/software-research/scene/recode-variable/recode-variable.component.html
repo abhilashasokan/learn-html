@@ -1,0 +1,159 @@
+<h1 nz-typography>Recode variables</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/KjvUPzLXsdw?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+<p nz-typography>
+  Recoding is a method by which data of an already existing variable is
+  re-coded or modified so that it can be used for analysis.
+  There are two methods of recoding variables
+</p>
+<div>
+  <ol type="a">
+    <li>
+      Recode into same variables
+    </li>
+    <li>
+      Recode into different variables
+    </li>
+  </ol>
+</div>
+
+<h3 nz-typography>a) Recode into same variables</h3>
+<p nz-typography>
+  Recode into same variables is the method, by which the changes in
+  data by recoding, is made to the original variable itself. A new variable
+  will not be created. In the example given, for gender, the value labels
+  used are
+</p>
+<p nz-typography>
+  1= Male, and 2= Female.
+</p>
+<p nz-typography>If the user wishes to change this value labels as 1= Female and 2=
+  Male, Recode into same variables can be used. The following
+  transformation is required.
+  <img src="assets/img/spss/43.jpg" alt="" title="" class="img-block" />
+</p>
+
+<div nz-typography>
+  The steps for recoding into the same variable are as follows
+  <ol type="1">
+    <li>
+      Open DataSet1.sav
+    </li>
+    <li>
+      Select Transform
+    </li>
+    <li>
+      Click on Recode Into Same Variables to open the Recode into Same
+      Variables dialogue box. Please note, by selecting Recode Into Same
+      Variables, the original data will be overwritten.
+    </li>
+    <li>
+      In the Variable List box, select the variable you wish to recode
+      (e.g., .Gender)
+    </li>
+    <li>
+      Click on the Old and New Values command button to open the
+      Recode into Same Variables: Old and New Values dialogue box.
+      <img src="assets/img/spss/44.jpg" alt="" title="" class="img-block" />
+    </li>
+    <li>In the Old value box, type the old value (i.e, 1)</li>
+    <li>In the New Value box,type the new value (i.e, 2)
+    </li>
+    <li>Click on Add
+    </li>
+    <li>In the Old Value box, type the second old value(i.e, 2)
+    </li>
+    <li>In the New Value box, type the new second value(i.e, 1)
+    </li>
+    <li>Click to Add.
+      <img src="assets/img/spss/45.jpg" alt="" title="" class="img-block" />
+    </li>
+    <li>In the New Value box, type the new second value(i.e, 1)
+    </li>
+    <li>
+      Click to Continue and then 0K
+      The output is given below in Fig 9. Compare between the original
+      data and the recoded data.
+      <img src="assets/img/spss/46.jpg" alt="" title="" class="img-block" />
+    </li>
+  </ol>
+</div>
+
+<h3 nz-typography>b) Recode into different variables
+</h3>
+
+<p nz-typography>
+  Recoding into different variables is commonly used to convert data
+  which is continuous into discreet or categorical variable. In relatio
+  to the example being used, age has been measured as a continuous
+  variable, and using recode into different variables command a new
+  variable will be created.
+  <img src="assets/img/spss/47.jpg" alt="" title="" class="img-block" />
+</p>
+
+<div nz-typography>
+  <ol type="1">
+    <li>
+      Open DataSet1.sav
+    </li>
+    <li>
+      Select the Transform menu
+    </li>
+    <li>
+      Click on Recode into Different Variables to open the Recode into
+      Different Variables dialogue box. By selecting Recode into Different
+      Variables, the original variable will be retained and another new
+      variable will be created.
+    </li>
+    <li>
+      In the Variable List box, select the variable that has to be converted
+      (in this example, age) and move the variable into the Numeric
+      Variable-> Output Variable box.
+    </li>
+    <li>
+      In the Name: of the Output variable box, type the new variable
+      name (age_ recoded)
+      <img src="assets/img/spss/48.jpg" alt="" title="" class="img-block" />
+    </li>
+    <li>
+      Click on the Old and New Values... Old and New Values.„ button
+      to open the Recode into Different Vana es:
+      an ew values
+      dialogue box.
+    </li>
+    <li>
+      Click on the second Range: (Lowest through) radio button and
+      enter 18
+    </li>
+    <li>
+      In the New Value Box enter 1
+    </li>
+    <li>
+      Click Add
+      <img src="assets/img/spss/49.jpg" alt="" title="" class="img-block" />
+    </li>
+    <li>Click on the first Range radio button, enter 18 through 20</li>
+    <li>In the New Value Box enter 2</li>
+    <li>Click Add
+    </li>
+    <li>Click on the first Range radio button, enter 20 through 22</li>
+    <li>In the New Value Box enter 3
+    </li>
+    <li>Click Add</li>
+    <li>Click on the first Range radio button, enter 22 through 24</li>
+    <li>In the New Value Box enter 4</li>
+    <li>Click Add</li>
+    <li>Click on the third Range: radio button (Value through highest
+      and enter 24</li>
+    <li>In the New Value Box enter 5</li>
+    <li>Click Add
+    </li>
+    <li>Click Continue</li>
+    <li>Click Ok
+      <img src="assets/img/spss/50.jpg" alt="" title="" class="img-block" />
+    </li>
+  </ol>
+</div>

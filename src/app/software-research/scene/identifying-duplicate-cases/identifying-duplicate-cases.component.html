@@ -1,0 +1,112 @@
+<h1 nz-typography>Identifying Duplicate Cases and Unusual Cases</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/4cE1NmfcfNY?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+<p nz-typography>
+  Identifying duplicate cases and unusual cases are two options in SPSS which are of immense use. Both duplicate cases
+  and Unusual Cases can have serious impact on the analysis and the subsequent output. It is very important to identify
+  duplicate and unusual cases and take appropriate actions to remove these cases or minimize its impact, on the
+  analysis.
+</p>
+
+<h3 nz-typography>Identifying Duplicate Cases</h3>
+<p nz-typography>
+  Duplicate cases are when cases are identical to already existing cases. This can happen when the data was purposively
+  or
+  inadvertently copied. When the data file is very large, it will be difficult to identify such duplicate cases by
+  observation. SPSS will identify the cases which are duplicates and will display in the output viewer. In the SPSS
+  output
+  file, all original data will be displayed as Primary Case and duplicate cases as Duplicate Case. To illustrate this,
+  first step will to run without duplicate cases on the data file. <br />
+  <b>Data > Identify Duplicate Cases</b>
+  In the box Define matching cases by: move all the relevant variables that the user would like to use, to identify
+  duplicates.
+  <img src="assets/img/spss/27.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+<p nz-typography>
+  The output viewer will show the following results. It is clear from the output that all cases have been listed as
+  Primary. This implies that all cases are original and there are no duplicate cases.
+  <b>Indicator of each last matching case as Primary</b>
+  <img src="assets/img/spss/28.jpg" alt="Image" title="Image" class="img-block" />
+  To illustrate identifying duplicate cases, copy case 1 and paste in the DataSet as case 11. Click on Case 1 to select
+  all variables, copy and then paste.
+  <img src="assets/img/spss/29.jpg" alt="Image" title="Image" class="img-block" />
+  Repeat the procedure <b>Data > Identify Duplicate Cases </b>
+  And move all the variables into Define matching cases by: box. Click OK.
+  <b>Indicator of each last matching case as Primary</b>
+  <img src="assets/img/spss/30.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>
+  As mentioned earlier, All original cases will be given as Primary Case, and similar and identical cases as Duplicate
+  Case. The output show that there are 10 Primary Cases and 1 Duplicate Case, as how the DataSet have been modified.
+</p>
+<h3 nz-typography>Identifying unusual cases</h3>
+<p nz-typography>
+  When the response of any case, is very different from the responses obtained from similar cases it is termed as an
+  unusual case. It is also referred to as outlier or anomaly case. In statistics, outliers are defined as a data values
+  that is significantly different from other data values. It can also happen due to error committed during data entry,
+  variability in measurement of data, experimental error etc. Outliers causes severe problems in analysis of data and so
+  if identified, are excluded from statistical analysis.
+</p>
+
+<p nz-typography>
+  For example in the DataSetl.sav the data entry operator, has wrongly entered the age of George (Case 2) as 91 instead
+  of 19. This is an unusual case and should be identified and rectified, if not, the analysis will be based on age as
+  91.
+</p>
+
+<p nz-typography>
+  For example in the DataSetl.sav the data entry operator, has wrongly entered the age of George (Case 2) as 91 instead
+  of 19. This is an unusual case and should be identified and rectified, if not, the analysis will be based on age as
+  91.
+</p>
+<p nz-typography>
+  The procedure will be as follows. <b>Data > Identify Unusual Cases</b>
+</p>
+<p nz-typography>
+  The output gives three tables and that last table is reproduced below.
+</p>
+
+<h3 nz-typography>Anomaly Case Reason List</h3>
+<p nz-typography>
+  <img src="assets/img/spss/31.jpg" alt="Image" title="Image" class="img-block" />
+  SPSS has identified as Case 2 as the unusual Case and the value of the Variable is given as 91. This helps the user to
+  identify the unusual case and make appropriate changes.
+</p>
+<h3 nz-typography>Sort Order</h3>
+<p nz-typography>
+  Sorting Cases Sorting cases is arranging data in the ascending or descending order. Data can be sorted in ascending
+  order (from A to Z) or in descending order (from Z to A). In case of numeric data, the user can sort in ascending
+  order (lowest to highest) or in descending order (from highest to lowest). After sorting, the user can also save file
+  with the sorted data.
+  <b>Data> Sort data.</b>
+</p>
+<p nz-typography>
+  Sort by dialogue box will appear.
+</p>
+<p nz-typography>
+  If the user wants to sort data based on age, the age of the respondents will have to be moved into the Sort by box.
+  <img src="assets/img/spss/32.jpg" alt="Image" title="Image" class="img-block" />
+  Click on Sort order Ascending radio button
+  <img src="assets/img/spss/33.jpg" alt="Image" title="Image" class="img-block" />
+  <b>Click OK</b>
+</p>
+
+<p nz-typography>
+  The output is given below. As it can be noticed the data is sorted according to the age criteria that was given.
+  <img src="assets/img/spss/34.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h3 nz-typography>Sorting variables</h3>
+<p nz-typography>
+Sorting can also be done on variables. The variables can be sorted alphabetically as given below.
+</p>
+<p nz-typography>
+Data > Sort Variables and select the appropriate variables in the Variable View Columns and click OK
+<img src="assets/img/spss/35.jpg" alt="Image" title="Image" class="img-block" />
+he variables have been arranged in the alphabetical order as given below.
+<img src="assets/img/spss/36.jpg" alt="Image" title="Image" class="img-block" />
+</p>

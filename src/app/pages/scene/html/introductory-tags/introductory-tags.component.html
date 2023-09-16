@@ -1,0 +1,204 @@
+<h1 nz-typography>Introductory Tags- Head, Title, Body Tags</h1>
+
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/Pfm6TiFXVSA?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+
+<p nz-typography>
+  HTML code is generally typed into notepad. Open notepad
+  and type the following.
+  <img src="assets/img/web/web2.png" alt="web 2" title="web 2" class="img-block" />
+  Each one of those is a tag. There is a starting tag and a closing
+  tag. To make a closing tag just add a / to the starting tag.
+  Most, but not all tags have a closing tag. Think of tags as
+  enclosing a bit of text for the browser to interpret. The browser
+  will interpret everything between <b><i>&lt;html&gt;</i></b> and <b><i>&lt;/html&gt;</i></b> as an
+  HTML document. Different tags are interpreted different ways
+  by the browser.
+  Please note that it's important that you nest tags properly as
+  explained earlier. Once you type in an opening or starting tag
+  please type in the closing tag also. You should not wait till
+  the end of the document to insert the corresponding closing
+  tags.
+  Every HTML document needs a pair of head tags
+</p>
+<img src="assets/img/web/web3.png" alt="web 3" title="web 3" class="img-block" />
+
+<p nz-typography>
+  Let's focus only on head tags and the title tags.
+</p>
+<img src="assets/img/web/web4.png" alt="web 4" title="web 4" class="img-block" />
+<p nz-typography>
+  And the bulk of the page is going to be within the body tags
+  which is given below. The general structure of an HTML code
+  also can be summarized with the following.
+  <img src="assets/img/web/web5.png" alt="web 5" title="web 5" class="img-block" />
+  Give your document a title and type in something in the body.
+  <img src="assets/img/web/web6.png" alt="web 6" title="web 6" class="img-block" />
+
+</p>
+<h3>Saving an HTML document.</h3>
+<p nz-typography>
+  The HTML code written should be saved. But when you save
+  it,save it as an html document, not as a text document. Save
+  it as <b>lesson1.html</b> in a new folder. Otherwise the document will be saved a .txt file which is the default
+  format of a notepad
+  file. The saved file will have the icon of a web browser, as
+  follows;
+  <img src="assets/img/web/web7.png" alt="web 7" title="web 7" class="img-block" />
+  Click on the icon and the output will appear as follows.
+  <img src="assets/img/web/web8.png" alt="web 8" title="web 8" class="img-block" />
+</p>
+
+<h3> Changing background colours</h3>
+<p nz-typography>
+  If you noticed, the background of the html file is white since
+  we have not mentioned any colours as background.
+  <img src="assets/img/web/web9.png" alt="web 9" title="web 9" class="img-block" />
+  You will notice that the background changes from white to
+  green.
+</p>
+
+<h3>Inserting images as background</h3>
+<p nz-typography>
+  Instead of having a background that is plain, we can add a
+  picture to your background.
+  You can specify a background image instead. <b>(Note, the image
+    should be in the same folder as your HTML file. Or else
+    copy the path of the file).</b>
+  <img src="assets/img/web/web10.png" alt="Image" title="Image" class="img-block" />
+
+</p>
+
+<h3>Working with Text</h3>
+<h4>Whitespace</h4>
+<p nz-typography>
+  Consider the following code given below, you will realize
+  that the spacing between 'Hello' and 'everyone' is quite large.
+  In this case HTML will not read more than one spacing so the
+  output will be exactly the same as given below.
+  <img src="assets/img/web/web11.png" alt="Image" title="Image" class="img-block" />
+  If you need more white spacing you will use & nbsp which
+  stands for Non-Breaking Space. If you need more than one
+  space you will have to add as many & nbsp as you need.
+  <img src="assets/img/web/web12.png" alt="Image" title="Image" class="img-block" />
+  There are number of formatting options that you can use while
+  preparing HTML pages. The commonly used features are:
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Tag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Bold</b></td>
+      <td>&lt;b&gt;&lt;/b&gt;</td>
+    </tr>
+    <tr>
+      <td><b>Underline</b></td>
+      <td>&lt;u&gt;&lt;/u&gt;</td>
+    </tr>
+    <tr>
+      <td><b>Italics</b></td>
+      <td>&lt;i&gt;&lt;/i&gt;
+      </td>
+    </tr>
+    <tr>
+      <td><b>Change font</b></td>
+      <td>font face</td>
+    </tr>
+    <tr>
+      <td><b>Changing font size</b></td>
+      <td>font size</td>
+    </tr>
+  </tbody>
+</table>
+
+<p nz-typography>
+  What we are telling the browser is: at the <b>&lt;b&gt;</b> start making text bold, and at the <b>&lt;/b&gt;</b>
+  stop making text bold. As the first attempt, make 'hello everyone' in our document bold.
+</p>
+<p nz-typography>
+  <code>&lt;b&gt; Hello everyone&lt;/b&gt;</code>
+</p>
+<p nz-typography>
+  Underline that same sentence. <br />
+  <code>&lt;u&gt;Hello everyone&lt;/u&gt;</code>
+</p>
+
+<p nz-typography>
+  Make that same sentence Italics.
+  <br />
+  <code>&lt;i&gt;Hello everyone&lt;/i&gt; <br /></code>
+  We can use tags in combiñation if we wish.<br />
+  <img src="assets/img/web/web13.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/web14.png" alt="Image" title="Image" class="img-block" />
+</p>
+<p nz-typography>
+  This is an example of nested tags. If you are going to use tag
+  pairs in combination make sure that they are nested properly,
+  not overlapping.
+</p>
+
+<h3>Changing font, font size and colour</h3>
+<p nz-typography>
+  First add the <code>&lt;font&gt;</code> tags... <br />
+  <img src="assets/img/web/web15.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/web16.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Very small</th>
+      <th>Small</th>
+      <th>Regular</th>
+      <th>Extra medium</th>
+      <th>Large</th>
+      <th>Extra large</th>
+      <th>Largest</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>1</b></td>
+      <td><b>2</b></td>
+      <td><b>3</b></td>
+      <td><b>4</b></td>
+      <td><b>5</b></td>
+      <td><b>6</b></td>
+      <td><b>7</b></td>
+    </tr>
+  </tbody>
+</table>
+<p nz-typography>
+  <b>
+    First, a <code>&lt;tag&gt;</code> tells the browser to do something. An
+    attribute goes inside the <code>&lt;tag&gt;</code> and tells the browser how
+    to do it.
+  </b>
+</p>
+
+<p nz-typography>
+  Second point is about defaults. As you probably know,
+  the default value is a value that the browser assumes if you
+  have not told it otherwise. A good example is the font size.
+  The default font size is 3 (usually).
+  Take note that quotation marks are being used. Whenever
+  you have an <b>attribute="value", the value should be in
+    quotes.</b>
+</p>
+
+<h3>Headings</h3>
+<p nz-typography>
+  Another useful tag is section headings. They come in sizes
+  1-6. It should be understood that hl to h6 is from largest to
+  smallest.
+  <img src="assets/img/web/web17.png" alt="Image" title="Image" class="img-block" />
+</p>

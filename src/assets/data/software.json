@@ -1,0 +1,139 @@
+{
+  "menu": {
+    "category": [
+      {
+        "categoryName": "Overview",
+        "icon": "dashboard",
+        "visible": true,
+        "subCategory": [
+          {
+            "title": "Overview",
+            "url": "software/overview",
+            "visible": true
+          }
+        ]
+      },
+      {
+        "categoryName": "Data",
+        "icon": "dashboard",
+        "visible": true,
+        "subCategory": [
+          {
+            "title": "Data Analysis",
+            "url": "software/data-analysis",
+            "visible": true
+          },
+          {
+            "title": "Data Processing",
+            "url": "software/data-processing",
+            "visible": true
+          },
+          {
+            "title": "Electronic Data Processing",
+            "url": "software/electronic-data-processing",
+            "visible": true
+          },
+          {
+            "title": "information",
+            "url": "software/information",
+            "visible": true
+          },
+          {
+            "title": "Data Processing Software",
+            "url": "software/data-processing-software",
+            "visible": true
+          }
+        ]
+      },
+      {
+        "categoryName": "History of SPSS",
+        "icon": "dashboard",
+        "visible": true,
+        "subCategory": [
+          {
+            "title": "History of SPSS",
+            "url": "software/history-of-spss",
+            "visible": true
+          },
+          {
+            "title": "Features of SPSS",
+            "url": "software/features-of-spss",
+            "visible": true
+          },
+          {
+            "title": "Introduction to SPSS",
+            "url": "software/introduction-spss",
+            "visible": true
+          },
+          {
+            "title": "SPSS Layout",
+            "url": "software/spss-layout",
+            "visible": true
+          },
+          {
+            "title": "Statistical Procedure",
+            "url": "software/statistical-procedure",
+            "visible": true
+          },
+          {
+            "title": "Types of measurement scales",
+            "url": "software/types-of-measurement-scales",
+            "visible": true
+          },
+          {
+            "title": "Likert items and Likert scale",
+            "url": "software/likert-items-and-likert-scale",
+            "visible": true
+          },
+          {
+            "title": "Creating dataset",
+            "url": "software/creating-dataset",
+            "visible": true
+          },
+          {
+            "title": "Identifying duplicate cases",
+            "url": "software/identifying-duplicate-cases",
+            "visible": true
+          }
+        ]
+      },
+      {
+        "categoryName": "Data analysis using spss",
+        "icon": "dashboard",
+        "visible": true,
+        "subCategory": [
+          {
+            "title": "Introduction",
+            "url": "software/data-analysis-using-spss",
+            "visible": true
+          },
+          {
+            "title": "Record variable",
+            "url": "software/recode-variable",
+            "visible": true
+          },
+          {
+            "title": "Automatic recode",
+            "url": "software/automatic-recode",
+            "visible": true
+          },
+          {
+            "title": "Visual binning",
+            "url": "software/visual-binning",
+            "visible": true
+          },
+          {
+            "title": "Visual Binning Cutpoints with equal percentile",
+            "url": "software/visual-binning-cutpoints",
+            "visible": true
+          },
+          {
+            "title": "Analyze menu",
+            "url": "software/analyze-menu",
+            "visible": true
+          }
+        ]
+      }
+    ]
+  }
+}

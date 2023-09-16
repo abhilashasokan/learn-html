@@ -1,0 +1,62 @@
+image: atlassianlabs/docker-node-jdk-chrome-firefox
+
+clone:
+  depth: full
+
+definitions:
+  steps:
+    - step: &lint
+        name: Lint app
+        caches:
+          - node
+        script:
+          - npm install
+          - npm run lint
+    - step: &test
+        name: Test app
+        caches:
+          - node
+        script:
+          - npm install
+          - npm run test
+    - step: &build
+        name: Build app
+        size: 1x
+        caches:
+          - node
+        script:
+          - npm install
+          - npm run build
+        artifacts:
+          - 'dist/**'
+    - step: &deploy
+        name: Deploy to development
+        deployment: development
+        caches:
+          - node
+        script:
+          - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git HEAD:master
+        artifacts:
+          - 'dist/**'
+
+pipelines:
+  default:
+    - parallel:
+        - step: *lint
+        - step: *test
+        - step: *build
+
+  branches:
+    master:
+      - parallel:
+        - step: *lint
+        - step: *build
+      - step:
+          <<: *deploy
+          name: Deploy to staging
+          deployment: staging
+    development:
+      - parallel:
+        - step: *lint
+        - step: *test
+        - step: *build

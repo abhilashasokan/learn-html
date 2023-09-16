@@ -1,0 +1,104 @@
+<h1 nz-typography>Visual Binning</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/KkZXNJLtiro?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+<p nz-typography>
+  Visual Binning, another method of Data Transformation, refers to the
+  process of grouping continuous variables into different bins (categories)
+  and determining the frequencies. e.g., Classifying a continuous variable
+  like Marks for Accounting to categories like 60-70,70-80,80-90,90-100. Cut
+  points are the points where the data is divided into categories. In the above
+  example, cut points are at 60, 70, 80, 90, 100. Each of the categories will be
+  referred to as bins. For example, 60-70 is a bin. The number of categories
+  will be one less that the cutpoints. E.g., if there are 5 cutpoints, there will
+  be 4 categories.
+</p>
+
+<p nz-typography>
+  There are three methods that are used by SPSS to automatically create
+  cutpoints
+</p>
+<ol type="1">
+  <li>
+    Cutpoints of equal width interval
+  </li>
+  <li>
+    Cutpoints with equal percentile
+  </li>
+  <li>
+    Cutpoints at mean and selected standard deviations.
+  </li>
+</ol>
+
+<ol type="1">
+  <li>
+    <b>Visual binning using cutpoints of equal width interval</b>
+    <p nz-typography>
+      Using Cutpoints of equal width interval, the width of each class interval
+      will be the same. The user can decide the first cutpoint location and the
+      number of cutpoints required and also the width of each class interval.
+    </p>
+    <p nz-typography>
+      Using the example DataSet1, the user has marks for Accounting from 64 to 97, he may choose to give the first
+      cutpoint at 60 and if the width chosen is10 and the number of cutpoints is 5, four class intervals or bins of the
+      width 10 will be created. Viz. 60-70,70-80,80-90,90-100. Kindly note that there will be 5 cutpoints at 60,70,80,90
+      and 100. And the last cutpoint location will be 100. </p>
+    <p nz-typography>The procedure for this is given below</p>
+    <ol type="1">
+      <li>
+        Transform > Visual Binning
+      </li>
+      <li>
+        A Visual Binning dialogue box will appear, Move the variable(Accounting) into the Variables to Bin box
+      </li>
+      <li>
+        Click Continue, a second Visual Binning Dialogue Box will appear.
+      </li>
+      <li>
+        In the visual binning dialogue box, give an name for the binned variable (In this example name is given as
+        Bin_equalwidth)
+      </li>
+      <li>
+        Click on Make Cutpoints...
+        <img src="assets/img/spss/53.jpg" alt="" title="" class="img-block" />
+      </li>
+      <li>
+        In the Make Cutpoints dialogue box, the first radio button of Equal Width Intervals is chosen. Enter 60 as the
+        first Cutpoint location, and enter the number of Cutpoints required. In the example used here, the First
+        Cutpoint location is 60 and the Number of Cutpoints is 5. SPSS fills the width by default, the user is free to
+        revise it.
+
+        Here we have revised the width to 10. The Last Cutpoint location
+        is 100 which will be automatically generated.
+        <img src="assets/img/spss/54.jpg" alt="" title="" class="img-block" />
+      </li>
+      <li>
+        Click Apply, the user will return to the Visual Binning dialogue
+        box, click Make Labels, the labels will added in the grid as shown
+        below.
+        <img src="assets/img/spss/55.jpg" alt="" title="" class="img-block" />
+      </li>
+      <li>
+        Click 0K. For the dialogues Bo-I, Binning specifications will create
+        1 variables Click 0K.
+      </li>
+      <li>
+        Go to Analyze >Descriptive Statistics> Frequencies, move the
+        binned variable into the Variable(s): box.
+      </li>
+      <li>
+        Click 0K
+        <img src="assets/img/spss/56.jpg" alt="" title="" class="img-block" />
+      </li>
+      <li>
+        The output will be displayed in Output Viewer as shown below.
+        <img src="assets/img/spss/57.jpg" alt="" title="" class="img-block" />
+      </li>
+    </ol>
+  </li>
+  <li>
+
+  </li>
+</ol>

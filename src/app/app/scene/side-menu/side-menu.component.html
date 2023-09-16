@@ -1,0 +1,11 @@
+<ul nz-menu nzTheme="dark" nzMode="inline">
+  <ng-container *ngFor="let category of menu?.category">
+    <li nz-submenu *ngIf="category.visible" [nzTitle]="category.categoryName" [nzIcon]="category.icon">
+      <ul *ngFor="let subCategory of category?.subCategory">
+        <li nz-menu-item nzMatchRouter *ngIf="subCategory.visible">
+          <a [routerLink]="subCategory.url">{{ subCategory.title }}</a>
+        </li>
+      </ul>
+    </li>
+  </ng-container>
+</ul>

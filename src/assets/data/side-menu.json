@@ -1,0 +1,159 @@
+{
+  "menu": {
+    "category": [
+      {
+        "categoryName": "Overview",
+        "icon": "dashboard",
+        "visible": true,
+        "subCategory": [
+          {
+            "title": "Overview",
+            "url": "cms/overview",
+            "visible": true
+          }
+        ]
+      },
+      {
+        "categoryName": "Network and communication",
+        "icon": "dashboard",
+        "visible": true,
+        "subCategory": [
+          {
+            "title": "Computer Networks",
+            "url": "cms/computer-networks",
+            "visible": true
+          },
+          {
+            "title": "Types of networks",
+            "url": "cms/types-of-networks",
+            "visible": true
+          },
+          {
+            "title": "Network Topology",
+            "url": "cms/network-topology",
+            "visible": true
+          },
+          {
+            "title": "Application of network and communication",
+            "url": "cms/application-of-network-and-communication",
+            "visible": true
+          },
+          {
+            "title": "Network security",
+            "url": "cms/network-security",
+            "visible": true
+          },
+          {
+            "title": "Communication medium",
+            "url": "cms/communication-medium",
+            "visible": true
+          },
+          {
+            "title": "Generations in communication",
+            "url": "cms/generations-in-communication",
+            "visible": true
+          }
+        ]
+      },
+      {
+        "categoryName": "Html & Webpage",
+        "icon": "dashboard",
+        "visible": true,
+        "subCategory": [
+          {
+            "title": "Editor",
+            "url": "cms/editor",
+            "visible": true
+          },
+          {
+            "title": "Overview",
+            "url": "cms/html-introduction",
+            "visible": true
+          },
+          {
+            "title": "Four Key Concepts of HTML",
+            "url": "cms/key-concept-html",
+            "visible": true
+          },
+          {
+            "title": "Introductory Tags",
+            "url": "cms/introductory-tags",
+            "visible": true
+          },
+          {
+            "title": "Text Align",
+            "url": "cms/html-text-align",
+            "visible": true
+          },
+          {
+            "title": "Table",
+            "url": "cms/html-table",
+            "visible": true
+          },
+          {
+            "title": "Links",
+            "url": "cms/html-links",
+            "visible": true
+          },
+          {
+            "title": "Adding Multimedia files in HTML",
+            "url": "cms/multimedia-in-html",
+            "visible": true
+          },
+          {
+            "title": "Frames",
+            "url": "cms/frames",
+            "visible": true
+          },
+          {
+            "title": "Website Management",
+            "url": "cms/website-management",
+            "visible": true
+          }
+        ]
+      },
+      {
+        "categoryName": "Internet",
+        "icon": "chrome",
+        "visible": true,
+        "subCategory": [
+          {
+            "title": "Introduction",
+            "url": "cms/internet-introduction",
+            "visible": true
+          },
+          {
+            "title": "Internet Drawbacks",
+            "url": "cms/internet-drawbacks",
+            "visible": true
+          },
+          {
+            "title": "Working of internet",
+            "url": "cms/working-of-internet",
+            "visible": true
+          },
+          {
+            "title": "Hardware / Software for internet",
+            "url": "cms/hardware-software-for-internet",
+            "visible": true
+          },
+          {
+            "title": "Hardware / World Wide Web Consortium",
+            "url": "cms/world-wide-web-consortium",
+            "visible": true
+          },
+          {
+            "title": "Hardware / Business Applications of Internet",
+            "url": "cms/business-applications-of-internet",
+            "visible": true
+          },
+          {
+            "title": "Intranet",
+            "url": "cms/intranet",
+            "visible": true
+          }
+        ]
+      }
+    ]
+  }
+}

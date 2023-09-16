@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 85.0.4183.121 (Linux x86_64)" package="" timestamp="2020-10-18T08:57:42" id="0" hostname="Abhilash" tests="29" errors="0" failures="0" time="0.594">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/85.0.4183.121 Safari/537.36"/>
+  </properties>
+  <testcase name="ComputerNetworksComponent should create" time="0.055" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).ComputerNetworksComponent"/>
+  <testcase name="WorldWideWebConsortiumComponent should create" time="0.051" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).WorldWideWebConsortiumComponent"/>
+  <testcase name="SideMenuComponent should create" time="0.027" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).SideMenuComponent"/>
+  <testcase name="ApplicationOfNetworkAndCommunicationComponent should create" time="0.02" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).ApplicationOfNetworkAndCommunicationComponent"/>
+  <testcase name="AppComponent should render title" time="0.059" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).AppComponent"/>
+  <testcase name="AppComponent should have as isCollapsed as false" time="0.016" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).AppComponent"/>
+  <testcase name="AppComponent should create the app" time="0.015" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).AppComponent"/>
+  <testcase name="WebsiteManagementComponent should create" time="0.02" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).WebsiteManagementComponent"/>
+  <testcase name="GenerationsInCommunicationComponent should create" time="0.009" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).GenerationsInCommunicationComponent"/>
+  <testcase name="MultimediaInHtmlComponent should create" time="0.022" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).MultimediaInHtmlComponent"/>
+  <testcase name="NetworkSecurityComponent should create" time="0.018" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).NetworkSecurityComponent"/>
+  <testcase name="LinksComponent should create" time="0.03" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).LinksComponent"/>
+  <testcase name="CommunicationMediumComponent should create" time="0.019" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).CommunicationMediumComponent"/>
+  <testcase name="BusinessApplicationsOfInternetComponent should create" time="0.011" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).BusinessApplicationsOfInternetComponent"/>
+  <testcase name="InternetIntroductionComponent should create" time="0.011" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).InternetIntroductionComponent"/>
+  <testcase name="DrawbacksInternetComponent should create" time="0.013" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).DrawbacksInternetComponent"/>
+  <testcase name="NetworkTopologyComponent should create" time="0.012" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).NetworkTopologyComponent"/>
+  <testcase name="TypesOfNetworksComponent should create" time="0.019" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).TypesOfNetworksComponent"/>
+  <testcase name="KeyConceptsHtmlComponent should create" time="0.017" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).KeyConceptsHtmlComponent"/>
+  <testcase name="IntroductoryTagsComponent should create" time="0.024" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).IntroductoryTagsComponent"/>
+  <testcase name="IntranetComponent should create" time="0.013" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).IntranetComponent"/>
+  <testcase name="HtmlTextAlignComponent should create" time="0.024" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).HtmlTextAlignComponent"/>
+  <testcase name="HardwareSoftwareForInternetComponent should create" time="0.022" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).HardwareSoftwareForInternetComponent"/>
+  <testcase name="HtmlIntroductionComponent should create" time="0.017" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).HtmlIntroductionComponent"/>
+  <testcase name="OverviewComponent should create" time="0.013" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).OverviewComponent"/>
+  <testcase name="WorkingOfInternetComponent should create" time="0.013" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).WorkingOfInternetComponent"/>
+  <testcase name="FramesComponent should create" time="0.011" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).FramesComponent"/>
+  <testcase name="EditorComponent should create" time="0.01" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).EditorComponent"/>
+  <testcase name="Service: Layout should ..." time="0.003" classname="Chrome_Headless_85_0_4183_121_(Linux_x86_64).Service: Layout"/>
+  <system-out>
+    <![CDATA[Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-page-header' is not a known element:
+1. If 'nz-page-header' is an Angular component, then verify that it is part of this module.
+2. If 'nz-page-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-avatar' is not a known element:
+1. If 'nz-avatar' is an Angular component, then verify that it is part of this module.
+2. If 'nz-avatar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-page-header-title' is not a known element:
+1. If 'nz-page-header-title' is an Angular component, then verify that it is part of this module.
+2. If 'nz-page-header-title' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-page-header-content' is not a known element:
+1. If 'nz-page-header-content' is an Angular component, then verify that it is part of this module.
+2. If 'nz-page-header-content' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card' is not a known element:
+1. If 'nz-card' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: ''nz-card-meta' is not a known element:
+1. If 'nz-card-meta' is an Angular component, then verify that it is part of this module.
+2. If 'nz-card-meta' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzCover' since it isn't a known property of 'nz-card'.'
+,Chrome Headless 85.0.4183.121 (Linux x86_64) WARN: 'Can't bind to 'nzAvatar' since it isn't a known property of 'nz-card-meta'.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

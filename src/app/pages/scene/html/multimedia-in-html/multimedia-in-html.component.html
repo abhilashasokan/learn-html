@@ -1,0 +1,164 @@
+<h1 nz-typography>Adding Multimedia files in HTML</h1>
+
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/F3tHkqXOPrU?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+
+<p nz-typography>
+  Adding audio and video files enhances the appearance of the
+  website. In this section we are going to focus on adding audio
+  and video files. For the sake of convenience only the easiest
+  methods are discussed.
+</p>
+
+<h2 nz-typography>Audio files</h2>
+<p nz-typography>
+  Kindly make sure that you have an audio file for
+  this exercise. Audio files can be in many formats
+  like .wav, v.cda, . mp3 .flac, .ogg etc. Depending
+  on the format the tag should also be modified.
+  The tag used in back-ground sound source.
+  <img src="assets/img/web/16.png" alt="Image" title="Image" class="img-block" />
+
+</p>
+<p nz-typography>
+  You can use the tag &#x3C;bgsoundsrc=&#x22;1.mp3&#x22; loop=&#x22;3&#x22;&#x3E; if you
+  want input the number of times the track should be played.
+  In this example it is played 3 times.
+</p>
+
+<h2 nz-typography>Adding video files</h2>
+<h3 nz-typography>Using dynscr attribute</h3>
+<p nz-typography>
+  You can add video files you the dynamic source dynscr
+  attribute. The video file has been named as video and it is in
+  mpg format (formats can differ).
+  <img src="assets/img/web/17.png" alt="Image" title="Image" class="img-block" />
+  Alternatively we could use &#x3C;embed src=&#x22;1.mp3&#x22;&#x3E; and &#x3C;embed src=&#x22;video.mpg&#x22;&#x3E; for
+  adding the corresponding audio and
+  video files. Some browsers may not support certain file types
+  in audio and video.
+</p>
+
+<h2 nz-typography>Forms</h2>
+<p nz-typography>
+  A form is used to collect information from users. An HTML
+  form provides for data gathering functionality which greatly
+  enhances its utility.
+</p>
+<p nz-typography>The basic construction of a HTML form is as follows:</p>
+<p nz-typography>
+  &#x3C;form&#x3E; - begin a form <br>
+  &#x3C;input&#x3E; - type of input desired whether its text or password etc <br>
+  &#x3C;/form&#x3E; - end a form <br>
+  <img src="assets/img/web/18.png" alt="Image" title="Image" class="img-block" />
+  Initiate the form.
+  <img src="assets/img/web/19.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>The most common type of form &#x3C;input&#x3E; is text. </p>
+<img src="assets/img/web/20.png" alt="Image" title="Image" class="img-block" />
+<p nz-typography>
+  Every input needs a name.
+  <img src="assets/img/web/21.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/22.png" alt="Image" title="Image" class="img-block" />
+
+  When the user types in an address (for example, 123 baker junction), it will become the input's value and be paired
+  with the input's name (address) and the end result after processing will be the name=value pair.
+</p>
+<p nz-typography>
+  We can, if we want, type in a value.
+  <img src="assets/img/web/23.png" alt="Image" title="Image" class="img-block" />
+
+  This will automatically pair the value '123 Baker junction' with the name address, unless the user changes it.
+  Important be sure to use quotes. <br>
+  We can specify the size of the text input box.
+
+  <img src="assets/img/web/24.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/25.png" alt="Image" title="Image" class="img-block" />
+
+  As you can see, the default value is (usually) 20. You probably already know, by the way, that the default value is
+  the value
+  that the browser assumes if you have not told it otherwise.
+</p>
+
+<p nz-typography>
+  Remove <b>value="123 Baker junction"</b>. <br>
+  If we want, we can specify how many characters a user can
+  input. <br>
+
+  Let's try to make a textbox that can take in 10 characters.
+  The 11 character will not be accepted.
+  <img src="assets/img/web/26.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h2 nz-typography>Passwords in forms</h2>
+
+<p nz-typography>
+  Very similar to the type="text" is the It is exactly the same, except it displays instead of the actual
+  input. <br>
+
+  Remember that each &#x3C;input&#x3E; must have a name.
+  <img src="assets/img/web/27.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/28.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h2 nz-typography>Radio Buttons</h2>
+<p nz-typography>
+  Radio Buttons allow the user to choose one of several options.
+  <img src="assets/img/web/29.png" alt="Image" title="Image" class="img-block" />
+  Add 2 more.
+  <img src="assets/img/web/30.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/31.png" alt="Image" title="Image" class="img-block" />
+
+  The entire radio button will appear in a row horizontally. <br>
+  We will make it vertical. <br>
+  Insert a couple line breaks. <br>
+
+  <img src="assets/img/web/32.png" alt="Image" title="Image" class="img-block" />
+  Each of the Radio Buttons must be assigned a different value. <br>
+  <img src="assets/img/web/33.png" alt="Image" title="Image" class="img-block" />
+  Now label each button.
+  <img src="assets/img/web/34.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/35.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h2 nz-typography>Check Boxes</h2>
+<p nz-typography>
+  Check Boxes allow the user to choose one or more or all of
+  several options. Ifiput type should be given as 'checkbox'.
+  <img src="assets/img/web/36.png" alt="Image" title="Image" class="img-block" />
+</p>
+<h2 nz-typography> Creating multiple checkboxes </h2>
+<p nz-typography>
+  Check boxes are often found in groups. Multiple check boxes
+  are no different than a single check box. <br>
+  In our form, each Check Box gets the same value. (Although
+  you could just as easily assign different values for each
+  checkbox)
+
+  <img src="assets/img/web/37.png" alt="Image" title="Image" class="img-block" />
+
+  With check boxes, the name changes and the value may stay
+  the same or it may be different. You can have as many
+  checkboxes as you like in your form. Let's label each checkbox.
+  <img src="assets/img/web/38.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/39.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h2 nz-typography>Pull down list</h2>
+<p nz-typography>
+  The next type of input is a Pull down List.
+  With this type you use &#x3C;select&#x3E; instead of &#x3C;input&#x3E; and it
+  has a closing tag. Let&#x27;s make one.
+  <img src="assets/img/web/40.png" alt="Image" title="Image" class="img-block" />
+  Give it a name.
+  <img src="assets/img/web/41.png" alt="Image" title="Image" class="img-block" />
+  Next add a few options.
+  <img src="assets/img/web/42.png" alt="Image" title="Image" class="img-block" />
+  And give each &#x3C;option&#x3E; a value.
+  <img src="assets/img/web/43.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/44.png" alt="Image" title="Image" class="img-block" />
+</p>

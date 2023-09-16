@@ -1,0 +1,146 @@
+<h1 nz-typography>Creating a DataSet</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/g0cu5LVe5is?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+
+<p nz-typography>
+  A data set can be created in SPSS by the following steps. <br />
+  <b>File> New > Data</b>
+</p>
+
+<h3 nz-typography>Illustration 2</h3>
+<p nz-typography>
+  If a user wants to analyze marks of 10 students for 5 subjects, Data from students may be collected based on the
+  variables given in the table below.The following details should be entered in the Variable View. Variable Name cannot
+  start with a numeral, blank characters (space) not allowed.
+  <img src="assets/img/spss/16.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>
+  Since, for analysis of data, only numerals can be used, Value Labels should be entered for categorical data. In the
+  example Gender, (Male and Female) and Exam Board (State Board, CBSE, ISC) are categorical data, the categories should
+  be defined using value labels. Male=1 and Female =2 or any appropriate coding.
+</p>
+
+<p nz-typography>
+  in the Variable View, Click on the cell under Value, an icon with three dots will be displayed. Click on the icon, to
+  go to the Value Labels Dialogue Box
+</p>
+
+<p nz-typography>
+  In the Values Labels Dialogue box, Give Value: 1, Label: Male and Click Add. Repeat the procedure for Female Value: 2,
+  Label: Female.
+  <img src="assets/img/spss/17.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>
+  Do the same procedure for Exam Board 1 for State Board, 2 for CBSE 3 for ISC.
+  <img src="assets/img/spss/18.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>
+  The <b>Variables View</b> after defining all variables is shown below.
+  <img src="assets/img/spss/19.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>
+  The data for the file has been entered and Data View is displayed in the following image (Fig. 16). Students can enter
+  their own data or enter the data as given.
+  <img src="assets/img/spss/20.jpg" alt="Image" title="Image" class="img-block" />
+  Save the data as DataSetl. File > Save. The file will be saved by SPSS with .sav as extension. This example will be
+  used for illustrating various options SPSS hereafter.
+</p>
+
+<h3 nz-typography>Inserting cases and variables in SPSS</h3>
+<p nz-typography>
+  Inserting cases/ variables in SPSS is similar to how data is entered in excel. Go to last row containing
+  cases/variables and enter the new case or variable in the next row. But if the user wants to insert a case or a
+  variable in between the cases or variables, use the following methods
+</p>
+
+<p nz-typography>
+  A new case can be inserted in SPSS in multiple ways
+</p>
+
+<ol type="1">
+  <li>
+    Click Edit > Insert Cases; or
+  </li>
+  <li>
+    Right-click on a row and select Insert Cases from the menu; or
+  </li>
+  <li>
+    Click the Insert Cases icon
+  </li>
+</ol>
+<p nz-typography>
+  A new variable can also be inserted in multiple ways</p>
+
+<ol type="1">
+  <li>
+    Click Edit > Insert Variables
+  </li>
+  <li>
+    Right-click on a column and select Insert Variables from the menu or
+  </li>
+  <li>
+    Click the Insert Variables icon
+  </li>
+</ol>
+<h3 nz-typography> Selecting Cases in SPSS</h3>
+
+<p nz-typography>
+  The DataSet that is being used will have hundreds of cases. But the user might need only few of the cases for
+  analysis.
+  In case when the user might need only a subset of all the data collected for analysis, the Select Cases option can be
+  used. For example, of the data file that was created, the researcher might be interested in analysis of only female
+  students. To select cases in SPSS, perform the following tasks <br />
+  <b>Data> Select cases.</b>
+</p>
+<p nz-typography>
+  As mentioned earlier, if only female candidates need to be included in the analysis, in the <b>Select Cases menu</b>,
+  in the
+  Select group, use the second condition, <b>If condition is satisfied</b>.
+  <img src="assets/img/spss/21.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>
+  After selecting If... a new window would pop out which appears as below(Fig 18).The appropriate variable has to be
+  moved to the window using and the necessary condition given. If the data has to selected based on female, the option
+  is Gender=2. Kindly recollect that gender was coded as Male=1, and Female=2. Thus on giving the option, Gender=2, only
+  female candidates will be selected.
+</p>
+
+<p nz-typography>
+  Use the number pad given in the window or use the keyboard to enter the condition i.e., (=2).
+  <img src="assets/img/spss/22.jpg" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>
+  Click Continue and OK to close the respective windows and return to the data view. Upon completing the task the data
+  view will appear as below. Kindly note that the cases which were excluded will have a diagonal strike through and the
+  included cases will appear without the strike through. SPSS assigns a filter to select the required cases which is
+  displayed in the last column.
+  <img src="assets/img/spss/23.jpg" alt="Image" title="Image" class="img-block" />
+  In this example, kindly note that case numbers 1, 7, 8 and 10 only are selected for the analysis, as the user set
+  female cases to be selected as the condition.
+</p>
+
+<h3 nz-typography>Listing Cases</h3>
+<p nz-typography>
+  Listing cases is a very useful function if the user wants a list of variables or cases from the DataSet. The list of
+  variables will be displayed in the output viewer and can be exported to a Word Processing software as the user
+  desires. By default only the first 100 cases will be displayed.<br />
+  <b>Analyze > Reports > Case Summaries</b>
+  <img src="assets/img/spss/24.jpg" alt="Image" title="Image" class="img-block" />
+  The variables that you want to prepare a case summary of, should be moved into the Variables: box using the . In the
+  example used, Name and 12th board exam has been considered to prepare case summaries
+</p>
+
+<p nz-typography>
+  The output view will have the result of the Case Summaries.
+  <img src="assets/img/spss/25.jpg" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/spss/26.jpg" alt="Image" title="Image" class="img-block" />
+</p>

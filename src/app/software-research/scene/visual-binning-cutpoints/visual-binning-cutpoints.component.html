@@ -1,0 +1,116 @@
+<h1 nz-typography>Visual Binning Cutpoints with equal percentile</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/KkZXNJLtiro?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+<p nz-typography>
+  A percentile is a measure indicating the value below which a given
+  percentage of observations falls. 20th percentile refers to the value
+  below which 20% of the observations lie. The user can divide the
+  observations, such that each bin will have an equal number of units.
+  Quartiles, Deciles, Percentiles all work in the same manner. In this
+  example we are going to use deciles. Deciles divide the data into
+  ten equal parts.
+</p>
+<p nz-typography>
+  The steps given above for visual binning, are the same, except step
+  no. 6, which is explained below
+</p>
+<p nz-typography>
+  Step 6. In the Make Cutpoints dialogue box, the second radio
+  button of Equal Percentages Based on Scanned Cases is chosen.
+  As decile are used, type 10 in the Width(%):. Number of Cutpoints
+  will be 9.
+  <img src="assets/img/spss/58.jpg" alt="" title="" class="img-block" />
+  Repeat the remaining steps.
+</p>
+<p nz-typography>
+  Output appears in the Output Viewer will be as follows.
+  <img src="assets/img/spss/59.jpg" alt="" title="" class="img-block" />
+  Kindly note that the size of each bin is different but the number of items in
+  each bin are the same.
+</p>
+<p nz-typography>
+  If the variable chosen contains a relatively small number of distinct values
+  or a large number of cases with the same value, while performing visual
+  binning the user get fewer bins than requested. If there are multiple
+  identical values at a cutpoint, the values will be placed in the same interval;
+  so the actual percentages may not always be exactly equal.
+</p>
+
+<h3 nz-typography>3. Visual Binning with Cutpoints at mean and selected standard
+  deviations</h3>
+
+<p nz-typography>Mean is a measure of central tendency, which refers to the central point or
+  an average value that is representative of the data. Standard deviation is a
+  measure of dispersion of the set of data from the mean. Mean ± one
+  standard deviation covers 68.26 Mean ± two standard deviation covers
+  95.44 % , Mean ± three standard deviation covers 99.7% of the distribution.</p>
+
+<p nz-typography>
+  The following is the Normal Distribution which is the backbone of
+  traditional statistics.
+  <img src="assets/img/spss/60.jpg" alt="" title="" class="img-block" />
+  Visual binning can be performed using the mean and standard deviation
+  as given above.
+</p>
+
+<p nz-typography>
+  The steps given above, in the Visual binning of equal width interval
+  example, will be repeated here, except step no. 6, which is explained below.
+</p>
+
+<p nz-typography>
+  Steps 6. In the Make Cutpoints dialogue box, choose the third radio button
+  of Cutpoints at mean and selected Standard Deviations based on Scanned
+  Cases. Select any checkbox according to the user's requirement. In this
+  example we are taking Mean±l standard deviation.
+  <img src="assets/img/spss/61.jpg" alt="" title="" class="img-block" />
+  The mean of the data is 81.2 and standard deviation is 10.37(computed
+  manually), thus the class intervals will be 81.20 ± 10.37 .
+</p>
+
+<p nz-typography>
+  81.20 - 10.37 = 70.83, 81.2 + 10.37 = 91.58, Class intervals are 70.83-81.20,
+  81.21-91.58.
+</p>
+
+<h3 nz-typography>Frequency of binned variable- using Mean and Standard Deviation
+  Marks of Accounting (Binned)</h3>
+<img src="assets/img/spss/62.jpg" alt="" title="" class="img-block" />
+
+<h3 nz-typography>Rank cases</h3>
+<p nz-typography>
+  Ranking is the method of recoding the data into ranks. Rank cases is very
+  commonly used option of SPSS. It is used to order the data from smallest
+  to largest or largest to smallest.
+</p>
+<p nz-typography>
+  Using the DataSet1 example, in order to create a rank of test scores, perform
+  the following steps.
+</p>
+
+<ol type="1">
+  <li>
+    Transform > Rank cases
+  </li>
+  <li>
+    In the rank cases dialogue box, move the required variable (Marks
+    of Accounting) into the Variable(s): box.
+  </li>
+  <li>
+    In the option Assign Rank 1 to, select the largest value radio button
+    as the ranking is done on marks scored.
+    <img src="assets/img/spss/63.jpg" alt="" title="" class="img-block" />
+  </li>
+  <li>
+    <p nz-typography>Click 0K. A new variable will be created with the ranks. Check
+      the Data View and the Variable View</p>
+    <p nz-typography>
+      A comparison between the marks and the ranks are given below.
+      <img src="assets/img/spss/64.jpg" alt="" title="" class="img-block" />
+    </p>
+  </li>
+
+</ol>

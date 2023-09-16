@@ -1,0 +1,69 @@
+<h1 nz-typography>Frames</h1>
+
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/K_1aU_ZdbMo?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+
+<p nz-typography>
+  This lesson is about dividing a page into frames. The basic
+  concept is that each frame is a regular, complete HTML
+  document. If you wanted to divide your page into 2 side by
+  side frames, then you would put one complete HTML
+  document in the left frame and another complete html
+  document in the right frame. In addition you need to write a
+  third html document. This MASTER PAGE (this is explained
+  in the following pages) contains the &#x3C;frame&#x3E; tags that specify
+  what goes where.
+  There are only two main frame tags to contend with:
+  &#x3C;frameset&#x3E; and &#x3C;frame&#x3E;.
+  <img src="assets/img/web/45.png" alt="Image" title="Image" class="img-block" />
+  Let's give each html file a name.
+  <img src="assets/img/web/46.png" alt="Image" title="Image" class="img-block" />
+  Create two more HTML files.
+  <img src="assets/img/web/47.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/48.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<p nz-typography>
+  Let's make a master page. <br>
+
+  The files are saved as first, second, third and master.
+  And these names will be used hereafter when required.
+  Remoyre the &#x3C;body&#x3E; tags. The master page doesn&#x27;t use them.
+  <img src="assets/img/web/49.png" alt="Image" title="Image" class="img-block" />
+  Add &#x3C;frameset&#x3E; tags instead.
+  <img src="assets/img/web/50.png" alt="Image" title="Image" class="img-block" />
+
+  Let's prepare the layout of the frame. <br>
+  Let's make the browser to split the main window into 2 columns, each occupying 50% of the window.
+  <img src="assets/img/web/51.png" alt="Image" title="Image" class="img-block" />
+  This will still be blank, we have one more thing to do before our "system is operational". <br>
+  We must tell the browser what to put in each frame.
+  <img src="assets/img/web/52.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/53.png" alt="Image" title="Image" class="img-block" />
+
+  Realize that &#x3C;frameset&#x3E; is a container tag, and &#x3C;frame&#x3E; is
+  not. For those that don&#x27;t know what that means, a container
+  tag has an opening &#x3C;tag&#x3E; and a closing &#x3C;/tag&#x3E;. <br>
+
+  The &#x3C;frameset&#x3E; tag does all the dividing. It divides up
+  windows. It specifies a few things regarding how to divide
+  them up, but remember whenever you want to do some
+  dividing, use &#x3C;frameset&#x3E;. <br>
+
+  Let us divide it more than two sections. <br>
+  We can use * instead of a number. The * left over.
+  <img src="assets/img/web/54.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/55.png" alt="Image" title="Image" class="img-block" />
+  If we specify dividing into rows instead of cols we get frames
+  <img src="assets/img/web/56.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/57.png" alt="Image" title="Image" class="img-block" />
+
+  We can put pictures in the frames if we want to. <br>
+  Save a file as image.jpg and then replace first.html with 1.gif.
+
+  <img src="assets/img/web/58.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/59.png" alt="Image" title="Image" class="img-block" />
+ </p>

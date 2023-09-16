@@ -1,0 +1,172 @@
+<h1 nz-typography>SPSS Layout</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/3otc8MohVuw?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+<p nz-typography>
+  There are 4 types of windows that any user will view in SPSS.
+</p>
+<ol type="1">
+  <li>
+    <b>Data view</b>
+  </li>
+  <li>
+    <b>Variable view</b>
+  </li>
+  <li>
+    <b>Output view</b>
+  </li>
+  <li>
+    <b>Syntax Editor</b>
+  </li>
+</ol>
+
+<ol type="1">
+  <li>
+    <h3>DATA VIEW: </h3>
+    <div>
+      In SPSS, all the data will be displayed in the Data view. Data view is a spreadsheet likq system which is used for
+      defining, entering, editing and displaying data) Like a spreadsheet, data is entered in each cell. Data
+      organization in SPSS is based on the following concepts.
+      <ol type="a" style="font-size: medium;">
+        <li>
+          Variable is any characteristic, number, or quantity that is measured or counted by the researcher for the
+          study. A variable may also be called a data item. Age, gender, business income, expenditure, profit, marks,
+          grade, percentage are examples of variables. In short, any characteristic considered by the researcher for the
+          study is a variable.
+        </li>
+        <li>
+          Case is a record of information of a single object of study on one or more variables. Eg. Marks of a
+          particular student for an exam or exams. Marks of each student will be a case. Generally a case will be the
+          response from one person.
+        </li>
+        <li>
+          Value is a single item which is the intersection of a variable and case. Eg. It can be marks scored by a
+          particular student for a particular test.
+        </li>
+        <li>
+          DataSet is a file that contains variables and cases.
+          <img src="assets/img/spss/3.jpg" alt="Image" title="Image" class="img-block" />
+        </li>
+      </ol>
+    </div>
+  </li>
+  <li>
+    <h3>VARIABLE VIEW: </h3>
+    <div>
+      Variable view displays all the variables that have been defined for the study. In this Variable View, the user can
+      adjust the properties of each of the variables under 10 categories: Name, Type, Width, Decimals, Label, Values,
+      Missing, Columns, Align, and Measure.
+      <ul style="font-size: medium;">
+        <li>
+          <p>
+            <b>Name:</b>
+            This is the first step of naming a variable. Name is used to define or change the name of a variable in the
+            Data View sheet. To change or define click in the appropriate cell and type in the new name.,Variable name
+            should start with a letter and the remaining characters can be a letter, digit and symbols. Blank space and
+            special characters cannot be used.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Type :</b>
+            Variables can be of different types like numeric, string, date, dollar etc. If the name of a student is
+            entered, the type should be selected as String. If the user wants to change the default option click on the
+            appropriate row in the Type column.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Width :</b>
+            Width option is used to alter the number of digits displayed in the column by clicking in the appropriate
+            up/ down arrow.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Decimals:</b>
+            For numeric data, decimals option shows the number of decimal points displayed. The user can alter the
+            number of digits to be displayed by clicking in the appropriate up/ down arrow.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Label:</b>
+            Using this option, the variables can be given appropriate labels which will help understand the variables
+            that are being used. This helps to have a clear idea of the variable. For example, variable name given as
+            Accounting, is not self-explanatory. In the Label option a detailed description of the variable can be given
+            i.e. Marks score by a student in a test on an Accounting exam. The output will be displayed based on the
+            label that you define for the variable.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Values:</b>
+            Values are used to give values to a categorical variable. If the variable is gender, the user cannot enter
+            the data as 'gender'. For analysis all data will have to be codified. So the user may give the values of the
+            variable as male =1 and female =2.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Missing:</b>
+            It is very rare to obtain complete data sets. Most often, respondents may not reveal their response to
+            personal or sensitive questions. In such cases missing values occur. Either the user can leave it blank or
+            assign a missing value code to identify the missing values. Missing values must be of the same type of data
+            they represent. For example, if variable is numeric, missing value should also be numeric. ;
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Column:</b>
+            The width of column in the data view sheet can be altered by clicking in the appropriate Column cell.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Align:</b>
+            To align the text or numbers in Data View, click in the appropriate Align cell.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Measure :</b>
+            The different types of variables are defined in this option. This is explained in detail in the types of
+            measurement scales discussed later in this module.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </li>
+  <li>
+    <h3>THE OUTPUT VIEWER: </h3>
+    <div>
+      The Output Viewer is where the results of statistical analysis are shown, when any command is executed in SPSS,
+      the Output Viewer window opens automatically and displays a log of all actions taken and the associated output.
+      <img src="assets/img/spss/4.jpg" alt="Image" title="Image" class="img-block" />
+    </div>
+    <div>
+      The Output Viewer window as shown, is divided into two sections, or frames. The left frame shows an outline of the
+      content in the Output Viewer, similar to an index of a book. This outline is especially useful, when there are
+      many SPSS commands and the user needs to locate an output easily. The right frame contains the actual output based
+      on the commands executed by the user. Clicking on an item in the left frame will help the user to locate the
+      content in the right frame.
+    </div>
+    <br />
+    <div>
+      Output Viewer window can be saved as a viewer file (*.spv). This is useful so that the user can review all outputs
+      again instead of repeating the procedure. To save an Output Viewer window, click File > Save As. The user can
+      export some or all of the contents in the Viewer window to a new document or image file by clicking <b>File >
+        Export</b>.
+    </div>
+  </li>
+  <li>
+    <h3>SYNTAX EDITOR: </h3>
+    <div>
+      The Syntax Editor window is where users can write, debug, and execute SPSS syntax. Instead of clicking at the drop down menus, users can write the program and execute the command. Some of the advanced tools for statistical analysis can be accessed only through the Syntax t ditor.
+      To open a new Syntax Editor window, click <b>File > New > Syntax</b>.
+      <img src="assets/img/spss/5.jpg" alt="Image" title="Image" class="img-block" />
+    </div>
+  </li>
+</ol>

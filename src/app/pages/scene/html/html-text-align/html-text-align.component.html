@@ -1,0 +1,88 @@
+<h1 nz-typography>Aligning Text</h1>
+
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/GLprN_eg-oE?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+
+<p nz-typography>
+  A useful heading attribute is align. We are dealing with three
+  options in align: <u>left align, center align and right align</u>.
+  Depending on the tag that we give, the text will be aligned
+  left, center or right.
+  <img src="assets/img/web/web18.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h3 nz-typography>Marquee</h3>
+<p nz-typography>
+  The Marquee tag creates a scrolling effect and makes the page
+  attractive.
+  <img src="assets/img/web/web19.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h3 nz-typography>Paragraph</h3>
+
+<p nz-typography>
+  When you type in word processors like MS Word etc, if you
+  press enter after a phrase or a sentence, it goes to the next line. But in HTML, this enter function does not work
+  like
+  this. For example the following HTML will have an output as
+  shown below irrespective of the formatting.
+  <img src="assets/img/web/web20.png" alt="Image" title="Image" class="img-block" />
+</p>
+<p nz-typography>
+  The browser cannot recognize formatting. It just displays the
+  characters in a steady stream as a single line. If you want to
+  start a new line you have to use a line break.
+  <img src="assets/img/web/web21.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/web22.png" alt="Image" title="Image" class="img-block" />
+  If we need more than one space between the two line use as
+  many <code>&lt;br&gt;&lt;br&gt;</code>as desired.
+  Let's go back to our simple page.
+  <img src="assets/img/web/web23.png" alt="Image" title="Image" class="img-block" />
+  This is the paragraph tag. Consider paragraph as a block of
+  text. <img src="assets/img/web/web24.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/web25.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h3 nz-typography>Inserting Images</h3>
+<p nz-typography>
+  Many a times in an HTML document, the requirement for
+  inserting an image arises.
+  <mark>Images are inserted using a <code>&lt;img&gt;</code> tag. The <code>&lt;img&gt;</code> tag embeds
+  an image in an HTML page and src specifies the source / URL
+  of an image. The height and width of the image can also be
+  entered.</mark>
+  <img src="assets/img/web/web26.png" alt="Image" title="Image" class="img-block" />
+  <img src="assets/img/web/web27.png" alt="Image" title="Image" class="img-block" />
+</p>
+
+<h3 nz-typography>Thumbnails</h3>
+<p nz-typography>
+  <mark>Thumb nails are very small images of the original. When
+  we click on the thumbnail we will get the original larger image.
+  This is commonly used to display many images as in the case
+  of a library. Not all images will have to displayed. The user
+  can decide which one to click; at the same time will have an
+  idea of all the pictures of the gallery.</mark> Here, we will have to
+  create a smaller resolution image of the original to be displayed
+  as the thumbnail. You could use a lot of tools to create a
+  image with lower resolution. The easiest option is to edit the
+  image in MS Paint and use the resize option. It is assumed
+  that you have an image titled 1.jpg (or any other format) as
+  the original image and 2.jpg as its thumbnail. Type in the
+  following code. <code>&lt;a&gt;</code> is called as the anchor tag, href is hypertext
+  reference.
+  <img src="assets/img/web/web28.png" alt="Image" title="Image" class="img-block" />
+</p>
+<h3 nz-typography>Roll over images</h3>
+<p nz-typography>
+ <mark> Roll over is a feature whereby the full size image (or any
+  other image) is shown only when the mouse moves or hovers
+  over it. Only when the mouse moves out of the image the
+  smaller image will be displayed.</mark> As it was in the case of
+  thumbnail, it is assumed that we have the original image and
+  the small resolution image. Use the following code.
+  <img src="assets/img/web/web29.png" alt="Image" title="Image" class="img-block" />
+</p>

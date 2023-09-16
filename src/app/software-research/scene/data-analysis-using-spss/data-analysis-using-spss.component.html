@@ -1,0 +1,123 @@
+<h1 nz-typography>Introduction</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/_tM3GHC6NJE?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+<p nz-typography>
+  After defining the variables and entering the data, the DataSet is ready for
+  basic transformation and analysis. The data that is entered in SPSS might
+  not be suitable for direct interpretation by the user. It has to be transformed
+  before any analysis can be done.
+</p>
+
+<h3 nz-typography>Data Transformation</h3>
+<p nz-typography>
+  Data transformation is the process of converting data from one format or
+  characteristic into another format or characteristics depending on the
+  requirement. Using SPSS, the following data transformations can be
+  performed.
+</p>
+
+<ol type="1">
+  <li>
+    Computing New Variables
+  </li>
+  <li>
+    Recoding Variables
+  </li>
+  <li>
+    Automatic Recode
+  </li>
+  <li>
+    Visual Binning
+  </li>
+</ol>
+
+<h3 nz-typography>Computing New Variables</h3>
+<p nz-typography>
+  As mentioned above, direct interpretation of data might not yield desired
+  results. For example, the marks scored by 10 students for 5 subjects might
+  not reveal any important pattern or information. In this regard Compute
+  is the most commonly used command used to obtain composite or
+  combined score for variables. This can be performed on the whole data in
+  the files or a selection of it, according to the requirement. SPSS has more
+  than 70 built-in functions to compute new variables based on the users
+  requirement.
+</p>
+<p nz-typography>
+  These include:
+</p>
+
+<ul type="1">
+  <li>
+    Arithmetic functions
+  </li>
+  <li>
+    Statistical functions
+  </li>
+  <li>
+    Distribution functions
+  </li>
+  <li>
+    Logical functions
+  </li>
+  <li>
+    Date and time functions
+  </li>
+  <li>
+    Missing-value functions
+  </li>
+  <li>
+    Cross-case functions
+  </li>
+  <li>
+    String functions
+  </li>
+</ul>
+
+<p nz-typography>
+  Using the DataSet that was prepared in the previous module(DataSet1.sav),
+  on examination results, a new variable can be computed. For instance, to
+  get a total of all the marks, a new variable Total_marks can be created.
+</p>
+<p nz-typography>
+  Total _ marks = Accounting+Costing+Income_ Tax+Marketing+Statistics
+</p>
+
+<h1 nz-typography>Steps to compute a new variable</h1>
+<img src="assets/img/spss/37.jpg" alt="Image" title="Image" class="img-block" />
+
+<p nz-typography>
+  The new variable that was defined Total_marks will be created and it will
+  be listed in the Variable View.
+  <img src="assets/img/spss/38.jpg" alt="Image" title="Image" class="img-block" />
+  The Data View will have the sum total of all the subjects as was defined in
+  the Compute command.
+  <img src="assets/img/spss/39.jpg" alt="" title="" class="img-block" />
+</p>
+
+<h1 nz-typography>Compute a new variable based on certain conditions
+</h1>
+
+<p nz-typography>
+  In some instances, it may be required to compute a new variable based on
+  certain conditions. For example, the user may wish to find the total marks
+  of all students who study for more than 10 hours a week. To make this
+  clear, using DataSet1.sav, a new variable is added: study _ hours which is
+  defined as the number of hours a student spends in studying.
+  The new variable is defined in the Variable View and the hours of study
+  of each student is given.
+  <img src="assets/img/spss/40.jpg" alt="" title="" class="img-block" />
+</p>
+
+<p nz-typography>To execute this, a slightly different method is adopted
+  <img src="assets/img/spss/41.jpg" alt="" title="" class="img-block" />
+</p>
+
+<p nz-typography>The output is as given below. Note that the total marks have been
+  calculated only for the cases which satisfies the conditions given,
+  study_hours >=10, and all cases where the study hours were less than
+  10 were excluded.
+  <img src="assets/img/spss/42.jpg" alt="" title="" class="img-block" />
+</p>

@@ -1,0 +1,70 @@
+<h1 nz-typography>Four Key Concepts of HTML</h1>
+
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/41IzqT53kWg?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+
+<ol>
+  <li>
+    <h4>Elements</h4>
+    <p nz-typography>
+      <mark>All HTML pages are made up of elements. An element is
+        just like a container in which a portion of a page is placed. An
+        element consists of two tags namely, an opening tag and a closing tag.
+        Whatever is contained inside the element will take on the characteristics of the element. For example, to
+        identify
+        a heading on a page, the heading matter should be enclosed in a heading element as
+        <b><i>&lt;h1&gt;&lt;/hl&gt;</i></b>.
+        The elements which do not require a closing tag are known as
+        empty elements.</mark> In the case of empty elements a closing slash
+      is added after the element name. A space is also added between
+      the element name and the slash like.
+      For example,
+      For a line break, the tag will be - <b><i>&lt;br /&gt;</i></b>
+    </p>
+  </li>
+  <li>
+    <h4>Tags</h4>
+    <p nz-typography>
+      <mark>Tags are commands written in text document (in Note
+        Pad). They are not displayed in the Web pages.
+        A Tag begins a "less than" sign <b><i>(&lt;)</i></b>, then the element name,
+        followed by a “greater than" <b><i>(&gt;)</i></b> sign. Such a tag is called as
+        an opening tag. In the case of a closing tag, it includes a
+        "back slash" <b><i>(/)</i></b> before the element name. <br /></mark>
+      For example:<br />
+      Opening tag for the paragraph element will be - <b><i>&lt;p&gt;</i></b> <br />
+      Closing tag for the paragraph element will be - <b><i>&lt;/p&gt;</i></b> <br />
+    </p>
+  </li>
+  <li>
+    <h4>Attributes and Values</h4>
+    <p nz-typography>
+      <mark>Attributes are another important part of HTML. An
+        attribute is used to define the characteristics of an element
+        and is placed inside the element's opening tag.</mark>
+      For example; <br />
+      To specify the size of an image or graphics on the Web page,
+      the <i>image element</i> is to be used with <i>height</i> and <i>width</i> as
+      <br /><code>&lt;img height=&quot;&quot; width=&quot;&quot; /&gt;</code><br />
+      Here, height and width are attributes. The attributes should
+      be followed by their values.
+      For example, if the size of the image is 300 x 200 pixels, the
+      HTML statement will be
+      <br /><code>&lt;img height= &quot;300&quot; width=&quot;200&quot; /&gt;</code>
+    </p>
+  </li>
+  <li>
+    <h4>Nesting</h4>
+    <p nz-typography><mark>Nesting means arrangement of the elements in such a
+        way that there is no overlapping of elements. Properly nested
+        elements are contained inside one another,</mark> as in the following.
+      <br /><code>&lt;a&gt;&lt;b&gt;&lt;c&gt;&lt;/c&gt;&lt;/b&gt;&lt;/a&gt;</code> <br />
+      Vertically Shown as follows;
+      <br />
+      <img src="assets/img/web/web1.png" alt="web 1" title="web 1" />
+    </p>
+  </li>
+</ol>

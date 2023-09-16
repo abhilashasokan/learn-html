@@ -1,0 +1,64 @@
+<h1 nz-typography>Automatic recode</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/t0eE9rIEo9U?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+<p nz-typography>
+  Automatic recode helps in converting a string variable into a
+  numerically coded variable, without manually doing it for each
+  item. This procedure assigns each unique category a numeric code,
+  then saves the converted values as a new variable.
+</p>
+
+<p nz-typography>
+  For example, if Gender was entered into the DataSet as string variable
+  viz. 'Male' and 'Female' , Automatic recoding helps to code the data
+  into 1= Male and 2= Female or 1=Female or 2= Male.
+</p>
+
+<p nz-typography>
+  To illustrate, Using the DataSet1.sav, Create a new variable as
+  Gender_String, and select the Type as String in the Variable View.
+</p>
+
+<p nz-typography>
+  In the Data View for the variable Gender_String, enter Male or Female
+  for each case.
+</p>
+
+<h3 nz-typography>Steps for Automatic Recode</h3>
+<div nz-typography>
+  <ol type="1">
+    <li>
+      Select Transform> Automatic recode
+    </li>
+    <li>
+      Automatic Recode dialogue box will appear.
+    </li>
+    <li>In the Automatic Recode option move the variable (Gender_string),
+      into the box.</li>
+    <li>In the option New Name, enter a name (Gender _ Autorecoded) for a
+      new variable. The automatically recoded values will be displayed
+      under this new name.</li>
+    <li>Click Add New Name
+    </li>
+    <li>In the Recode Starting from, there are two options. This option
+      decides the values to be automatically assigned to the string variables.
+      Values (1, 2, 3... ) are assigned alphabetically or reverse alphabetically
+      depending on the variable names.</li>
+    <li>Lowest value: Recoding of String Variables Alphabetically, (A-> Z),
+      Female=l and Male=2.</li>
+    <li>Highest value: Recoding of String Variables Reverse Alphabetically,
+      (Z->A) Male=l and Female=2. In this example, if the user wants to
+      alphabetically recode the string variables. i.e., Female=l and Male=2.
+      In the Recode Starting from select the option Lowest value.</li>
+    <li>
+      Click 0K
+      <img src="assets/img/spss/51.jpg" alt="" title="" class="img-block" />
+    </li>
+  </ol>
+  The output will be displayed as follows and Female has been coded
+  as 1 and Male as 2.
+  <img src="assets/img/spss/52.jpg" alt="" title="" class="img-block" />
+</div>

@@ -1,0 +1,103 @@
+<h1 nz-typography>The Analyze Menu</h1>
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/Y10ThEXpt7g?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+<p nz-typography>
+  The Analyze Menu of SPSS Software is the most important and most
+  commonly used Menu. Most of the statistical analysis are in this Menu.
+  Details of this Menu will be discussed as the following topics.
+  <img src="assets/img/spss/65.jpg" alt="" title="" class="img-block" />
+</p>
+
+<div nz-typography>
+  Four of the Descriptive Statistics sub menu will be discussed below.
+  <ol type="1">
+    <li>
+      Frequencies
+    </li>
+    <li>
+      Explore
+    </li>
+    <li>
+      Crosstabs
+    </li>
+    <li>
+      Descriptives
+    </li>
+  </ol>
+</div>
+
+<h3 nz-typography>1. Frequencies</h3>
+<div nz-typography>
+  The Frequencies procedure produces summary measures for categorical
+  variables. It can be prepared in the form of frequency tables, bar charts, or
+  pie charts. A frequency table displays counts and percentages for each
+  distinct value found in a variable.
+  <ol type="1">
+    <li>
+      <b>Analyze > Descriptive frequencies > Frequencies</b>
+    </li>
+    <li>
+      Move the variable(s) that the user wants to prepare frequencies
+      for into the Variable(s): box. In the example from DataSet1 we
+      have transferred Gender and 12th exam board into the Variable(s):
+      box
+      <img src="assets/img/spss/66.jpg" alt="" title="" class="img-block" />
+    </li>
+    <li>
+      Click 0K
+    </li>
+  </ol>
+  The output will be displayed as follows in the Output Viewer.
+  <img src="assets/img/spss/67.jpg" alt="" title="" class="img-block" />
+  <img src="assets/img/spss/68.jpg" alt="" title="" class="img-block" />
+</div>
+
+<p nz-typography>The frequencies table given by SPSS will have columns of the variables,
+  frequency, its percentage, valid percentage and cumulative percentage. If
+  your data has missing values, the percentage columns will not give the
+  actual percentages of the variable under consideration. Valid percentages
+  calculates the percentages based on the actual percentages excluding the
+  missing values. Cumulative percentage column give the cumulative value
+  of each classes.</p>
+<h3 nz-typography>2. Explore</h3>
+<p nz-typography>
+  Explore is another basic option used in SPSS. Explore helps the user get
+  an idea about the variable that is under study. DataSet 1 is used in this
+  example.
+</p>
+
+<ol type="1">
+  <li>
+    <b>Analyze > Descriptive Statistics > Explore</b>
+  </li>
+  <li>
+    Move any of the variables into the Dependent List box. To
+    illustrate, age of the respondents is chosen.
+    <img src="assets/img/spss/69.jpg" alt="" title="" class="img-block" />
+  </li>
+  <li>In the Display options radio button, select Statistics</li>
+  <li>Click 0K</li>
+</ol>
+<p nz-typography>
+  The output is given as follows in the Output Viewer.
+  <img src="assets/img/spss/70.jpg" alt="" title="" class="img-block" />
+  Case Processing Summary gives the details of the variables, number of
+  cases in the variable, if there are any missing values etc.
+  <img src="assets/img/spss/71.jpg" alt="" title="" class="img-block" />
+  Descriptives gives a very detailed output, mean, median, variance,
+  standard deviation, minimum, maximum, range interquartile range,
+  skewness and kurtosis of the variable.
+</p>
+<p nz-typography>
+  To give a better understanding of the variable, we could also use a factor.
+  In this example, Age is the Dependent List and gender is the Factor List.
+  The output as shown above (Descriptives) will be split between the
+  categories of the factor List viz Male and Female.
+  <img src="assets/img/spss/72.jpg" alt="" title="" class="img-block" />
+  The output is shown below
+  <img src="assets/img/spss/73.jpg" alt="" title="" class="img-block" />
+  <img src="assets/img/spss/74.jpg" alt="" title="" class="img-block" />
+</p>

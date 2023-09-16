@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 84.0.4147.89 (Linux x86_64)" package="" timestamp="2020-07-16T11:23:25" id="0" hostname="Development" tests="10" errors="0" failures="0" time="0.183">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/84.0.4147.89 Safari/537.36"/>
+  </properties>
+  <testcase name="OverviewSubjectComponent should create" time="0.038" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).OverviewSubjectComponent"/>
+  <testcase name="ReplaySubjectComponent should create" time="0.009" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).ReplaySubjectComponent"/>
+  <testcase name="AsyncSubjectComponent should create" time="0.008" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).AsyncSubjectComponent"/>
+  <testcase name="SubjectComponent should create" time="0.007" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).SubjectComponent"/>
+  <testcase name="SideMenuComponent should create" time="0.034" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).SideMenuComponent"/>
+  <testcase name="Service: Layout should ..." time="0.004" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).Service: Layout"/>
+  <testcase name="BehaviorSubjectComponent should create" time="0.009" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).BehaviorSubjectComponent"/>
+  <testcase name="AppComponent should render title" time="0.046" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).AppComponent"/>
+  <testcase name="AppComponent should have as isCollapsed as false" time="0.016" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).AppComponent"/>
+  <testcase name="AppComponent should create the app" time="0.012" classname="Chrome_Headless_84_0_4147_89_(Linux_x86_64).AppComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

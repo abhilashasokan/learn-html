@@ -1,0 +1,62 @@
+<h1 nz-typography>Network Topology</h1>
+
+<nz-card nzHoverable class="you-card" [nzCover]="coverTemplate"></nz-card>
+<ng-template #coverTemplate>
+  <iframe src="https://www.youtube-nocookie.com/embed/enJ6O_Jj7qk?rel=0" frameborder="0" class="video"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ng-template>
+
+<p nz-typography>
+  The logical layout of a network is called topology. There are four basic topologies for a network viz.. Bus, Ring,
+  Tree and Star topology.
+</p>
+<article nz-typography>
+  <ol>
+    <li>
+      <strong>
+        Bus Network:
+      </strong>
+      In a bus network, all nodes are connected to a single wire or cable (resembling a bus). It has two end points.
+      Each communication device on the network transmits electronic messages to other devices. Adding nodes in a bus
+      network is easy but as all computers are linked in a row, fault identification is really difficult.
+      <div class="box">
+        <img src="assets/img/bus-topology.jpg" alt="bus-topology.jpg">
+      </div>
+    </li>
+    <li>
+      <strong>
+        Ring Network:
+      </strong>
+      In a ring network, all microcomputers and other communication devices are connected in a continuous circular loop
+      so as to form a ring. There are no end points. Electronic messages are passed around the ring until they reach the
+      right destination. There is no central server. In ring topology, failure of one node makes transfer of data in
+      that direction impossible.
+      <div class="box">
+        <img src="assets/img/ring-topology.jpg" alt="ring-topology.jpg">
+      </div>
+    </li>
+    <li>
+      <strong>
+        Tree Network:
+      </strong>
+      In a tree topology, the nodes are connected to the backbone cable like that of branches of a tree.It is another
+      form of bus topology but tree topology covers more distance. It is easy to add or detach nodes in tree topology.
+      <div class="box">
+        <img src="assets/img/tree-topology.jpg" alt="tree-topology.jpg">
+      </div>
+    </li>
+    <li>
+      <strong>
+        Star Network:
+      </strong>
+      A Star network is one in which microcomputers and other communication devices directly connected to a central
+      server through cables. Electronic messages are routed through the central to their destinations. Nodes have no
+      direct link with each other but communicate through the central computer or server. If one node fails to work,
+      fault detection is easy and, it does not affect the functioning of other nodes.
+      <div class="box">
+        <img src="assets/img/star-topology.jpg" alt="star-topology.jpg">
+      </div>
+    </li>
+  </ol>
+</article>
+
